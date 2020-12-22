@@ -1,1 +1,3 @@
-This is the repository of a master thesis.
+# Master thesis evaluation
+## Dec 2020
+This repo is for dimension and word evaluation.
