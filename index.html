@@ -31,7 +31,7 @@
 <script type="text/javascript">
 function randomlinks(){
 	var numQuest = 3;
-    var myrandom=Math.round(Math.random()*numQuest);
+    var myrandom=Math.floor(Math.random()*numQuest);
     var links=new Array();
 
 
@@ -39,6 +39,7 @@ function randomlinks(){
     links[1]="https://wj.qq.com/s2/7813253/4b27/"; <!-- Radom -->
     links[2]="https://wj.qq.com/s2/7758670/8bfa/"; <!-- Integrated Gradient-->
     window.location=links[myrandom];
+    // console.log(links[myrandom]);
   }
 </script>
 <p></p>
